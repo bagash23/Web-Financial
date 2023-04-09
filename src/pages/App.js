@@ -1,6 +1,6 @@
 import Navbar from '../components/Navbar';
 import { BrowserRouter, BrowserRouter as Router, Route, Routes,  } from 'react-router-dom';
-import { Bantuan, Cuan, FAQ, TentangKami } from './Dashboard';
+import { ATM, Bantuan, Cuan, FAQ, TentangKami } from './Dashboard';
 
 function App() {
   return (
@@ -12,6 +12,7 @@ function App() {
         <Route path='/tentang-kami' element={<TentangKami/>} />
         <Route path='/faq' element={<FAQ/>} />
         <Route path='/bantuan' element={<Bantuan/>} />
+        <Route path='/atm' element={<ATM/>} />
       </Routes>
     </BrowserRouter>
     </>

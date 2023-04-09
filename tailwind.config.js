@@ -10,12 +10,12 @@ module.exports = {
       colors: {
         primary: "#F55050",
         dark: "#0f172a",
-        green: "#658864",
+        green: "#658864",        
       },
       screens: {
         "2xl": "1320px",
       },
-    },
+    },    
   },
   plugins: [],
 };
